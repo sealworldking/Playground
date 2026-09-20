@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 환경 변수 — API 키가 들어가므로 절대 올리지 않는다
+.env
+.env.*
+!.env.example
+
+# 에디터, OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
